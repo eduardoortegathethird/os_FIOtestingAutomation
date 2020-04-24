@@ -4,7 +4,6 @@ rw=write
 size=10G
 bs=4k
 numjobs=4
-iodepth=4
 direct=1
 group_reporting
 thread
