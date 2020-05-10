@@ -3,7 +3,7 @@ name=fioRR
 rw=write
 size=10G
 bs=4k
-numjobs=4
+numjobs=1
 direct=1
 group_reporting
 thread
@@ -12,6 +12,6 @@ norandommap
 log_avg_msec=10
 
 [job]
-filename=E\:fioFile
+filename=C\:fioFile
 time_based
 runtime=30
